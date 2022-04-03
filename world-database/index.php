@@ -9,7 +9,7 @@
 <body>
 <nav class="navbar">
   <div class="navbar-content">
-    <a href="#" class="navbar-logo button"><strong>World database</strong></a>
+    <a href="/world-database" class="navbar-logo button"><strong>World database</strong></a>
     <div class="navbar-items">
       <input type="search" id="search" name="search" placeholder="Pretraga baza"/>
       <a href="#najpoznatije-baze" class="bar-item button">Najpoznatije baze</a>
@@ -77,6 +77,8 @@
   <p>World database 2022.</p>
 </footer>
 
-<script src="scripts/db-search.js"></script>
+<!-- <script src="scripts/db-search.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="scripts/db-search-jquery.js"></script>
 </body>
 </html>
